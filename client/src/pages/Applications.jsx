@@ -1,10 +1,19 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Applications = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Navbar/>
+      <div>
+        <h2>Your Resume</h2>
+        <div>
+          {
+            isEdit ? <> </> : <div> </div>
+          }
+        </div>
+      </div>
+    </>
   )
 }
 
